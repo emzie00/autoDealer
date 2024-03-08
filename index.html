@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Auto Dealer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="headerWrapper">
+            <header>
+                <img src="images/icons8-car-50.png" alt="logo">
+                <h1>Auto Dealer</h1>
+                <a href="tel:8842623948">884.262.3948</a>
+            </header>
+        </div>
+        <div id="navWrapper">
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="primaryNav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Visit the Dealership</a></li>
+                    <li class="active"><a href="#">Gallery</a></li>
+                    <li><a href="#">Hours</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="mainWrapper">
+            <main>
+                <div class="parentHero">
+                    <img src="images/hero.webp" alt="hero cars" width="1500" height="478">
+                    <p>Buy a car from us today!</p>
+                </div>
+                <h1>Gallery</h1>
+                <div class="cards">
+                    <section class="bounce">
+                        <h3>Car 1</h3>
+                        <img src="svgs/icon1.svg" alt="icon">
+                        <p>Our cars are great.</p>
+                        <button>Learn More</button>
+                    </section>
+                    <section class="bounce">
+                        <h3>Car 2</h3>
+                        <img src="svgs/icon2.svg" alt="icon">
+                        <p>Buy a car from us.</p>
+                        <button>Learn More</button>
+                    </section>
+                    <section class="bounce">
+                        <h3>Car 3</h3>
+                        <img src="svgs/svgfinish.svg" alt="icon">
+                        <p>Get a car now.</p>
+                        <button>Learn More</button>
+                    </section>
+                    <section class="bounce">
+                        <h3>Car 4</h3>
+                        <img src="svgs/svgstart.svg" alt="icon">
+                        <p>Okay, buy a car now.</p>
+                        <button>Learn More</button>
+                    </section>
+                </div>
+                <div class="reviewWrapper">
+                    <h2>Customer Reviews</h2>
+                    <div id="reviews"></div>
+                </div>
+            </main>
+        </div>
+        <div id="footerWrapper">
+            <footer>
+            <p>&copy; 2024 &bull; Emma Church</p>
+        </footer>
+        </div>
+        <script src="js/scripts.js" type="module"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

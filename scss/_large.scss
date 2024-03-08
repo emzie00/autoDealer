@@ -1,0 +1,30 @@
+header, nav, main {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+nav {
+    button {
+        display: none;
+    }
+    ul, ul.open {
+        display: flex;
+        border: none;
+        margin-left: 2vw;
+    }
+    ul li {
+        border: none;
+    }
+    ul li a {
+        padding: .7rem 2rem;
+        font-size: .8rem;
+    }
+}
+.allCards {
+    section {
+        flex-basis: calc(33.333% - (($gutter*2)/3));
+    }
+}
+footer div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
